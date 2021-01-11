@@ -7,6 +7,7 @@ public class Personne {
 	String genre;
 	String role;
 	boolean actif;
+	int nbJambes;
 
 
 	public Personne(String name, String firstName, int year, String genre) {
