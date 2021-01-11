@@ -4,10 +4,13 @@ public class Personne {
 	String name;
 	String firstName;
 	int year;
-	public Personne(String name, String firstName, int year) {
+	String genre;
+
+	public Personne(String name, String firstName, int year, String genre) {
 		this.name = name;
 		this.firstName = firstName;
 		this.year = year;
+		this.genre = genre;
 		
 	}
 	public String getName() {
