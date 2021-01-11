@@ -8,7 +8,7 @@ public class Personne {
 	String role;
 	boolean actif;
 	int nbJambes;
-
+	int compteur;
 
 	public Personne(String name, String firstName, int year, String genre) {
 		this.name = name;
