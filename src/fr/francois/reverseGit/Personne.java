@@ -5,7 +5,9 @@ public class Personne {
 	String firstName;
 	int year;
 	String genre;
+	String role;
 	boolean actif;
+
 
 	public Personne(String name, String firstName, int year, String genre) {
 		this.name = name;
